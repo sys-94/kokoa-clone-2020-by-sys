@@ -1,0 +1,53 @@
+.friends-name__display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+  left: -15px;
+  margin: 20px 0px;
+}
+
+.friends-name__display i {
+  margin: 0px 10px;
+}
+
+.friends-name__display i:first-child {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-name__display i:last-child {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.channel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--gray);
+  padding: 20px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+.nav__btn:nth-child(2) {
+  position: relative;
+}
+
+.nav__btn:last-child {
+  position: relative;
+}
+
+.friends-bedge__position {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.friends-bedge__position__dot {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}

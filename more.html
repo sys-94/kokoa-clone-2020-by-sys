@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,21 +23,19 @@
     </div>
     <main class="main-screen">
       <div class="screen-header">
-        <div class="screen-header__title">친구목록</div>
+        <div class="screen-header__title">더 보기</div>
         <div class="screen-header__btn">
-          <i class="fas fa-search"></i>
+          <a href=""><i class="fas fa-search"></i></a>
           <i class="fas fa-music"></i>
-          <i class="fas fa-cog"></i>
+          <a href=""
+            ><i class="fas fa-cog"
+              ><span class="bedge__dot bedge__dot__find"></span></i
+          ></a>
         </div>
       </div>
-
-      <div class="friends-name__display">
-        <i class="fas fa-info-circle"></i>
-        <span>친구 이름 보기</span>
-        <i class="fas fa-chevron-right"></i>
-      </div>
-
-      <div class="user-components">
+      <div
+        class="user-components user-components__more user-components__chat_position"
+      >
         <div class="user-components-profile">
           <img
             class="user-components-profile__photo"
@@ -46,44 +44,33 @@
           />
           <div class="user-components-profile-text">
             <span class="user-components-profile-text__name">손영수</span>
-            <!--
-              <span class="user-components-profile-text__object"
-              >반갑습니다!</span> 
-            !-->
-          </div>
-        </div>
-        <!--
-        <div class="user-components-btn">
-          <span>2</span>
-          <i class="fas fa-chevron-right"></i>
-        </div>
--->
-      </div>
 
-      <div class="channel">
-        <h6 class="channel-title">채널</h6>
-        <i class="fas fa-chevron-up"></i>
-      </div>
-
-      <div class="user-components user-components__xs">
-        <div class="user-components-profile user-components-profile__xs">
-          <img
-            class="user-components-profile__photo user-components-profile__photo__xs"
-            src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/dudtn0927-1610828936.jpg"
-            alt=""
-          />
-          <div class="user-components-profile-text">
-            <span class="user-components-profile-text__name">손영수</span>
-            <!--
-              <span class="user-components-profile-text__object"
-              >반갑습니다!</span> 
-            !-->
+            <span class="user-components-profile-text__object"
+              >010-1234-1234<i class="fas fa-exclamation-circle"></i
+            ></span>
           </div>
         </div>
 
-        <div class="user-components-btn">
-          <span>2</span>
-          <i class="fas fa-chevron-right"></i>
+        <div class="user-components-btn user-components-btn__chat">
+          <i class="far fa-file-alt fa-2x"></i>
+        </div>
+      </div>
+      <div class="icon-row icon-row__more">
+        <div class="icon-row__icon">
+          <i class="fas fa-qrcode fa-2x"></i>
+          <span>QR code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-address-book fa-2x"></i>
+          <span>연락처 추가</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-fingerprint fa-2x"></i>
+          <span>ID 추가</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-envelope fa-2x"></i>
+          <span>초대하기</span>
         </div>
       </div>
     </main>
@@ -91,12 +78,12 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fas fa-user fa-2x"></i
+            ><i class="far fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chat.html"
-            ><i class="far fa-comment fa-2x"></i
+            ><i class="fas fa-comment fa-2x"></i
             ><span class="bedge__text friends-bedge__position">1</span></a
           >
         </li>
@@ -106,7 +93,7 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="#"
+          <a class="nav__link" href="more.html"
             ><i class="fas fa-ellipsis-h fa-2x"></i
             ><span class="bedge__dot friends-bedge__position__dot"></span
           ></a>

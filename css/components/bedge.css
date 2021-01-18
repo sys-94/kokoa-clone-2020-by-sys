@@ -1,0 +1,20 @@
+.bedge__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  color: white;
+  border-radius: 50%;
+}
+
+.bedge__dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}

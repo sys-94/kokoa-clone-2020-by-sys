@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,49 +23,18 @@
     </div>
     <main class="main-screen">
       <div class="screen-header">
-        <div class="screen-header__title">친구목록</div>
+        <div class="screen-header__title">채팅</div>
         <div class="screen-header__btn">
           <i class="fas fa-search"></i>
+          <i class="far fa-comment-dots"></i>
           <i class="fas fa-music"></i>
           <i class="fas fa-cog"></i>
         </div>
       </div>
 
-      <div class="friends-name__display">
-        <i class="fas fa-info-circle"></i>
-        <span>친구 이름 보기</span>
-        <i class="fas fa-chevron-right"></i>
-      </div>
-
-      <div class="user-components">
-        <div class="user-components-profile">
-          <img
-            class="user-components-profile__photo"
-            src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/dudtn0927-1610828936.jpg"
-            alt=""
-          />
-          <div class="user-components-profile-text">
-            <span class="user-components-profile-text__name">손영수</span>
-            <!--
-              <span class="user-components-profile-text__object"
-              >반갑습니다!</span> 
-            !-->
-          </div>
-        </div>
-        <!--
-        <div class="user-components-btn">
-          <span>2</span>
-          <i class="fas fa-chevron-right"></i>
-        </div>
--->
-      </div>
-
-      <div class="channel">
-        <h6 class="channel-title">채널</h6>
-        <i class="fas fa-chevron-up"></i>
-      </div>
-
-      <div class="user-components user-components__xs">
+      <div
+        class="user-components user-components__xs user-components__chat_position"
+      >
         <div class="user-components-profile user-components-profile__xs">
           <img
             class="user-components-profile__photo user-components-profile__photo__xs"
@@ -74,16 +43,62 @@
           />
           <div class="user-components-profile-text">
             <span class="user-components-profile-text__name">손영수</span>
-            <!--
-              <span class="user-components-profile-text__object"
-              >반갑습니다!</span> 
-            !-->
+
+            <span class="user-components-profile-text__object"
+              >반갑습니다!</span
+            >
           </div>
         </div>
 
-        <div class="user-components-btn">
-          <span>2</span>
-          <i class="fas fa-chevron-right"></i>
+        <div class="user-components-btn user-components-btn__chat">
+          <span>21:21</span>
+          <span class="bedge__text">1</span>
+        </div>
+      </div>
+      <div
+        class="user-components user-components__xs user-components__chat_position"
+      >
+        <div class="user-components-profile user-components-profile__xs">
+          <img
+            class="user-components-profile__photo user-components-profile__photo__xs"
+            src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/dudtn0927-1610828936.jpg"
+            alt=""
+          />
+          <div class="user-components-profile-text">
+            <span class="user-components-profile-text__name">손영수</span>
+
+            <span class="user-components-profile-text__object"
+              >반갑습니다!</span
+            >
+          </div>
+        </div>
+
+        <div class="user-components-btn user-components-btn__chat">
+          <span>21:21</span>
+          <!--<span class="bedge__text">1</span> !-->
+        </div>
+      </div>
+      <div
+        class="user-components user-components__xs user-components__chat_position"
+      >
+        <div class="user-components-profile user-components-profile__xs">
+          <img
+            class="user-components-profile__photo user-components-profile__photo__xs"
+            src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/dudtn0927-1610828936.jpg"
+            alt=""
+          />
+          <div class="user-components-profile-text">
+            <span class="user-components-profile-text__name">손영수</span>
+
+            <span class="user-components-profile-text__object"
+              >반갑습니다!</span
+            >
+          </div>
+        </div>
+
+        <div class="user-components-btn user-components-btn__chat">
+          <span>21:21</span>
+          <span class="bedge__text">1</span>
         </div>
       </div>
     </main>
@@ -91,12 +106,12 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fas fa-user fa-2x"></i
+            ><i class="far fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chat.html"
-            ><i class="far fa-comment fa-2x"></i
+            ><i class="fas fa-comment fa-2x"></i
             ><span class="bedge__text friends-bedge__position">1</span></a
           >
         </li>

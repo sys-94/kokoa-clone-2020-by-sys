@@ -1,0 +1,19 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.screen-header__title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.screen-header__btn i {
+  margin-right: 15px;
+}
+
+.screen-header__btn .fa-cog {
+  margin-right: 0px;
+}

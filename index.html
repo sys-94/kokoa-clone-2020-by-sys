@@ -23,18 +23,38 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa clone</h1>
+      <h1 class="welcome-header__title">코코아클론에 어서오세요</h1>
       <p class="welcome-header__text">
-        If you have a Kokoa Account, log in with yout email or phone number.
+        코코아 계정을 가지고 계시다면 입력해 주세요.
       </p>
     </header>
 
     <form class="login-form" action="friends.html" method="GET">
-      <input class="login-form__username login-form__text" name="username" type="text" placeholder="Email or Phone number" />
-      <input class="login-form__password login-form__text" name="password" type="password" placeholder="Password" />
-      <input class="login-form__log-in login-form__btn" type="submit" value="Log in" />
-      <input class="login-form__sign-up login-form__btn" type="submit" value="Sign Up" />
-      <a class="login-form__find" href="#">Find Kokoa Account or Password</a>
+      <input
+        required=""
+        class="login-form__username login-form__text"
+        name="username"
+        type="text"
+        placeholder="Email or Phone number"
+      />
+      <input
+        required=""
+        class="login-form__password login-form__text"
+        name="password"
+        type="password"
+        placeholder="Password"
+      />
+      <input
+        class="login-form__log-in login-form__btn"
+        type="submit"
+        value="Log in"
+      />
+      <input
+        class="login-form__sign-up login-form__btn"
+        type="submit"
+        value="Sign Up"
+      />
+      <a class="login-form__find" href="#">계정 찾기</a>
     </form>
 
     <script

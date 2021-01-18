@@ -1,0 +1,16 @@
+.user-components-btn__chat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-components-btn__chat span:first-child {
+  margin-bottom: 5px;
+}
+
+.user-components__chat_position {
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding-bottom: 10px;
+}
