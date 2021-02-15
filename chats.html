@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>More - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -21,25 +21,23 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-
     <main class="main-screen">
       <div class="screen-header">
-        <div class="screen-header__title">더 보기</div>
+        <div class="screen-header__title">채팅</div>
         <div class="screen-header__btn">
           <a href="find.html"><i class="fas fa-search"></i></a>
+          <i class="far fa-comment-dots"></i>
           <i class="fas fa-music"></i>
-          <a href="settings.html"
-            ><i class="fas fa-cog"
-              ><span class="bedge__dot bedge__dot__find"></span></i
-          ></a>
+          <a href="settings.html"><i class="fas fa-cog"></i></a>
         </div>
       </div>
+
       <div
-        class="user-components user-components__more user-components__chat_position"
+        class="user-components user-components__xs user-components__chat_position"
       >
-        <div class="user-components-profile">
+        <div class="user-components-profile user-components-profile__xs">
           <img
-            class="user-components-profile__photo"
+            class="user-components-profile__photo user-components-profile__photo__xs"
             src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/dudtn0927-1610828936.jpg"
             alt=""
           />
@@ -47,69 +45,64 @@
             <span class="user-components-profile-text__name">손영수</span>
 
             <span class="user-components-profile-text__object"
-              >010-1234-1234<i class="fas fa-exclamation-circle"></i
-            ></span>
+              >반갑습니다!</span
+            >
           </div>
         </div>
 
         <div class="user-components-btn user-components-btn__chat">
-          <i class="far fa-file-alt fa-2x"></i>
+          <span>21:21</span>
         </div>
       </div>
-      <div class="more-icon">
-        <div class="icon-row icon-row__more">
-          <div class="icon-row__icon">
-            <i class="fas fa-qrcode fa-2x"></i>
-            <span>QR code</span>
-          </div>
-          <div class="icon-row__icon">
-            <i class="far fa-address-book fa-2x"></i>
-            <span>연락처 추가</span>
-          </div>
-          <div class="icon-row__icon">
-            <i class="fas fa-fingerprint fa-2x"></i>
-            <span>ID 추가</span>
-          </div>
-          <div class="icon-row__icon">
-            <i class="far fa-envelope fa-2x"></i>
-            <span>초대하기</span>
-          </div>
-        </div>
-        <div class="icon-row icon-row__more">
-          <div class="icon-row__icon">
-            <i class="fas fa-file-invoice fa-2x"></i>
-            <span>Account</span>
-          </div>
-        </div>
-      </div>
-      <div class="suggestions">
-        <div class="suggestions-header">Suggestion</div>
-        <div class="suggestions-main">
-          <div class="suggestions_icon">
-            <img
-              class="suggestions_image"
-              src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/dudtn0927-1610828936.jpg"
-              alt=""
-            /><span>3수는</span>
-          </div>
-          <div class="suggestions_icon">
-            <img
-              class="suggestions_image"
-              src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/dudtn0927-1610828936.jpg"
-              alt=""
-            /><span>이제</span>
-          </div>
-          <div class="suggestions_icon">
-            <img
-              class="suggestions_image"
-              src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/dudtn0927-1610828936.jpg"
-              alt=""
-            /><span>그만!!</span>
-          </div>
-        </div>
-      </div>
-    </main>
+      <div
+        class="user-components user-components__xs user-components__chat_position"
+      >
+        <div class="user-components-profile user-components-profile__xs">
+          <img
+            class="user-components-profile__photo user-components-profile__photo__xs"
+            src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/dudtn0927-1610828936.jpg"
+            alt=""
+          />
+          <div class="user-components-profile-text">
+            <span class="user-components-profile-text__name">손영수</span>
 
+            <span class="user-components-profile-text__object"
+              >반갑습니다!</span
+            >
+          </div>
+        </div>
+
+        <div class="user-components-btn user-components-btn__chat">
+          <span>21:21</span>
+          <!--<span class="bedge__text">1</span> !-->
+        </div>
+      </div>
+      <a href="chat.html">
+        <div
+          class="user-components user-components__xs user-components__chat_position"
+        >
+          <div class="user-components-profile user-components-profile__xs">
+            <img
+              class="user-components-profile__photo user-components-profile__photo__xs"
+              src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/dudtn0927-1610828936.jpg"
+              alt=""
+            />
+            <div class="user-components-profile-text">
+              <span class="user-components-profile-text__name">손영수</span>
+
+              <span class="user-components-profile-text__object"
+                >삼수는 이제 그만~</span
+              >
+            </div>
+          </div>
+
+          <div class="user-components-btn user-components-btn__chat">
+            <span>21:21</span>
+            <span class="bedge__text">1</span>
+          </div>
+        </div>
+      </a>
+    </main>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
@@ -119,7 +112,7 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html"
-            ><i class="far fa-comment fa-2x"></i
+            ><i class="fas fa-comment fa-2x"></i
             ><span class="bedge__text friends-bedge__position">1</span></a
           >
         </li>

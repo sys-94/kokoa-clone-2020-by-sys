@@ -4,9 +4,9 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kokoa Clone</title>
+    <title>Settings - Kokoa Clone</title>
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -17,118 +17,66 @@
       </div>
       <div class="status-bar__column">
         <span>110%</span>
-        <i class="fas fa-battery-full fa-2x"></i>
+        <i class="fas fa-battery-full"></i>
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <main class="main-screen">
-      <div class="screen-header">
-        <div class="screen-header__title">채팅</div>
-        <div class="screen-header__btn">
-          <i class="fas fa-search"></i>
-          <i class="far fa-comment-dots"></i>
-          <i class="fas fa-music"></i>
-          <i class="fas fa-cog"></i>
+
+    <div class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"> <i class="fas fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">손영수</h1>
+      </div>
+      <div class="alt-header__column">
+        <a href="find.html">
+          <span><i class="fas fa-search"></i></span>
+        </a>
+        <span><i class="fas fa-bars"></i></span>
+      </div>
+    </div>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Monday, January 30, 2021</div>
+
+      <div class="message-row">
+        <img
+          src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/dudtn0927-1610828936.jpg"
+          alt=""
+        />
+        <div class="message-row__content">
+          <span class="message__author">손영수</span>
+          <div class="message__info">
+            <span class="meassage__bubble">Hi!</span>
+            <span class="meassage__time">21:27</span>
+          </div>
         </div>
       </div>
 
-      <div
-        class="user-components user-components__xs user-components__chat_position"
-      >
-        <div class="user-components-profile user-components-profile__xs">
-          <img
-            class="user-components-profile__photo user-components-profile__photo__xs"
-            src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/dudtn0927-1610828936.jpg"
-            alt=""
-          />
-          <div class="user-components-profile-text">
-            <span class="user-components-profile-text__name">손영수</span>
-
-            <span class="user-components-profile-text__object"
-              >반갑습니다!</span
-            >
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="meassage__bubble">Nice to meet you!</span>
+            <span class="meassage__time">21:27</span>
           </div>
-        </div>
-
-        <div class="user-components-btn user-components-btn__chat">
-          <span>21:21</span>
-          <span class="bedge__text">1</span>
-        </div>
-      </div>
-      <div
-        class="user-components user-components__xs user-components__chat_position"
-      >
-        <div class="user-components-profile user-components-profile__xs">
-          <img
-            class="user-components-profile__photo user-components-profile__photo__xs"
-            src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/dudtn0927-1610828936.jpg"
-            alt=""
-          />
-          <div class="user-components-profile-text">
-            <span class="user-components-profile-text__name">손영수</span>
-
-            <span class="user-components-profile-text__object"
-              >반갑습니다!</span
-            >
-          </div>
-        </div>
-
-        <div class="user-components-btn user-components-btn__chat">
-          <span>21:21</span>
-          <!--<span class="bedge__text">1</span> !-->
-        </div>
-      </div>
-      <div
-        class="user-components user-components__xs user-components__chat_position"
-      >
-        <div class="user-components-profile user-components-profile__xs">
-          <img
-            class="user-components-profile__photo user-components-profile__photo__xs"
-            src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/dudtn0927-1610828936.jpg"
-            alt=""
-          />
-          <div class="user-components-profile-text">
-            <span class="user-components-profile-text__name">손영수</span>
-
-            <span class="user-components-profile-text__object"
-              >반갑습니다!</span
-            >
-          </div>
-        </div>
-
-        <div class="user-components-btn user-components-btn__chat">
-          <span>21:21</span>
-          <span class="bedge__text">1</span>
         </div>
       </div>
     </main>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chat.html"
-            ><i class="fas fa-comment fa-2x"></i
-            ><span class="bedge__text friends-bedge__position">1</span></a
-          >
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="find.html"
-            ><i class="fas fa-search fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="#"
-            ><i class="fas fa-ellipsis-h fa-2x"></i
-            ><span class="bedge__dot friends-bedge__position__dot"></span
-          ></a>
-        </li>
-      </ul>
-    </nav>
 
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메세지를 입력해 주세요..." />
+        <i class="far fa-grin-alt fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-circle-up"></i>
+        </button>
+      </div>
+    </form>
+</div>
     <script
       src="https://kit.fontawesome.com/b2ced2a3f8.js"
       crossorigin="anonymous"
