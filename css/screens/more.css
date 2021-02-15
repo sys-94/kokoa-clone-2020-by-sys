@@ -49,3 +49,9 @@
   align-items: center;
   margin: 0px 30px;
 }
+
+.bedge__dot__more {
+  position: relative;
+  bottom: 22px;
+  left: 80px;
+}
