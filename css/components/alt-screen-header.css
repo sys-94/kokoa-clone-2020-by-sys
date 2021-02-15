@@ -1,5 +1,5 @@
 .alt-header {
-  margin: 40px 15px;
+  margin: 20px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,6 +8,7 @@
 
 .alt-header__title {
   font-size: 25px;
+  margin: 20px;
 }
 
 .alt-header__column {
